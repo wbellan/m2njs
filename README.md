@@ -31,3 +31,7 @@ brew install node
 ```
 
 More docs to to come shortly.....
+
+# Copyright
+
+Copyright (c) 2014 Wardell Bellanger. See LICENSE for details.
