@@ -30,7 +30,29 @@ brew install node
 
 # How To
 
-Install with npm:
+Navigate to your mongrel2 installation `bin` directory. Add the following to the mongrel2 configuration file:
+
+```config
+nodejs = Handler(
+  send_spec = 'tcp://127.0.0.1:9997',
+  send_ident = '81b7114c-534c-4107-9f17-b317cfd59f62',
+  recv_spec = 'tcp://127.0.0.1:9996',
+  recv_ident = '81b7114c-534c-4107-9f17-b317cfd59f62'
+)
+```
+You can change the address and port to whatever fits your need, then load your config using the following:
+
+```bash
+m2sh load -config YOUR_MONGREL2_CONF_FILE
+```
+
+Once configuration is loaded, start mongrel2 by issuing the following:
+
+```bash
+m2sh start -host localhost
+```
+
+Install m2njs using npm:
 
 ```bash
 npm install m2njs
