@@ -1,0 +1,36 @@
+{
+  "name": "m2njs",
+  "version": "0.1.0",
+  "description": "Mongrel2 handler for Node.js",
+  "author": "Wardell Bellanger <wbellan@yahoo.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js --reporter tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wbellan/m2njs.git"
+  },
+  "keywords": [
+    "mongrel2",
+    "node",
+    "zmq",
+    "handler"
+  ],
+  "readme" : "README.md",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbellan/m2njs/issues"
+  },
+  "engines" : {
+    "node" : "~0.10.x"
+  },
+  "homepage": "https://github.com/wbellan/m2njs",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "zmq": "^2.7.0"
+  }
+}
