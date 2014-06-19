@@ -1,6 +1,6 @@
 # m2njs
 
-Mongrel2 has handlers, which take HTTP requests, and turns them into nicely packed and processed [ZeroMQ](http://www.zeromq.org/intro:get-the-software) messages for your asynchronous handlers. m2njs is a Mongrel2 handler for Node.js.
+[Mongrel2](http://mongrel2.org/wiki/quick_start.html) has handlers, which take HTTP requests, and turns them into nicely packed and processed [ZeroMQ](http://www.zeromq.org/intro:get-the-software) messages for your asynchronous handlers. m2njs is a [Mongrel2](http://mongrel2.org/wiki/quick_start.html) handler for [Node.js](http://nodejs.org/).
 
 # How To
 
