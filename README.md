@@ -4,7 +4,7 @@
 
 # How To
 
-This assumes you have [zeromq](http://www.zeromq.org/intro:get-the-software) and [mongrel2](http://mongrel2.org/wiki/quick_start.html) installed.
+This assumes you have [ZeroMQ](http://www.zeromq.org/intro:get-the-software) and [Mongrel2](http://mongrel2.org/wiki/quick_start.html) installed.
 
 Navigate to your mongrel2 installation `bin` directory. Add the following to the mongrel2 configuration file:
 
