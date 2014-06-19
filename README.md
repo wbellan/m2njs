@@ -4,6 +4,8 @@ Mongrel2 has handlers, which take HTTP requests, and turns them into nicely pack
 
 # How To
 
+This assumes you have [zeromq](http://www.zeromq.org/intro:get-the-software) and [mongrel2](http://mongrel2.org/wiki/quick_start.html) installed.
+
 Navigate to your mongrel2 installation `bin` directory. Add the following to the mongrel2 configuration file:
 
 ```config
