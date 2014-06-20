@@ -14,7 +14,7 @@
 
   mongrel2.connect(config.recv_spec, config.send_spec, config.identity, function(msg, reply) {
     /*
-      In this example, I an additional header to send back.
+      In this example, I add an additional header to send back.
     */
     var headers = msg.headers;
     headers.responder = 'Hello, world from Node.JS handler!';
